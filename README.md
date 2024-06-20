@@ -13,7 +13,7 @@ The script might seem overly complicated for the purpose, but the utilized way o
 
 ## To reproduce
 
-The `.exe` file is produced using _BAT to EXE Converter_ from [here](https://bat-to-exe-converter-x64.en.softonic.com/). In order to hide the command prompt when opening PDF files, make sure you select "Invisible" under Exe-Format. Additionally, you can select an icon; `.ico` file from this repository is used for a precompiled executable.
+The `.exe` file is produced using _BAT to EXE Converter_ from [here](https://github.com/Makazzz/BatToExePortable). In order to hide the command prompt when opening PDF files, make sure you select "Invisible" under Exe-Format. Additionally, you can select an icon; `.ico` file from this repository is used for a precompiled executable.
 
 The enclosed `shortcut.exe` is from some suite of programs I can't find right now and is used to create a shortcut in the %AppData% folder. To reproduce, make sure you append it in the "Embed" tab in the aforementioned converter.
 
@@ -22,6 +22,8 @@ The enclosed `shortcut.exe` is from some suite of programs I can't find right no
 If you happen to open files with filenames containing non-ASCII characters, the application won't open them (see [this issue](https://github.com/benquick123/Edge-PDF-Standalone-Reader/issues/1#issue-1501492665)). Current workaround is to enable UTF-8 in Region settings like described in the first part of [this answer](https://stackoverflow.com/a/57134096/8094700).
 
 Apparently, the compiled `.exe` gets flagged by some antivirus software, which is why there is an option to reproduce the executable file yourself.
+
+^ The latest update should help with some detections. The files are now extracted to %temp%.
 
 ## Contribute
 

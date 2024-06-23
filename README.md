@@ -23,7 +23,9 @@ If you happen to open files with filenames containing non-ASCII characters, the 
 
 Apparently, the compiled `.exe` gets flagged by some antivirus software, which is why there is an option to reproduce the executable file yourself.
 
-^ The latest update should help with some detections. The files are now extracted to %temp%.
+^ The latest update should help with some (NOT ALL) detections. The files are now extracted to %temp%.
+
+^^Here's a good alternative in case this bothers you or makes you suspicious: [try it!](https://github.com/aarushsonker/Edge-PDF-Standalone)
 
 ## Contribute
 
